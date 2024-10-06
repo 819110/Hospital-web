@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    position:fixed;
+    background-color: rgb(11,78 ,78);
+    color:white;
+    top: 0%;
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 15px;
+    color: white;
+
+}
+ul li a:hover{
+    color:black;
+    border: 2ps solid black;
+}
+.logo{
+    font-size: 22px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(16,106,106);
+    color:white;
+    height: 640px;
+
+}
+.mainText h1{
+    font-size: 55px;
+}
+.mainText h3{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+}
+.mainText button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+}
+.Team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Team .card{
+    width: 300px;
+    height: 480px;
+    background-color: #f1eded;
+    border-radius: 5px;
+    margin-inline: 20px;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+.card p{
+    margin-top: 11px;
+    margin-left: 11px;
+     
+}
+.head{
+    text-align: center;
+    padding: 80px;
+}
+.Speciality{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.Speciality .spCard{
+    width: 300px;
+    padding: 22px;
+    background-color: "#fff";
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 22px;
+    margin-inline: 20px;
+}
+.spCard img{
+    width: 200px;
+
+}
+.spCard p{
+    margin-top: 11px;
+}
+.reviews{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.patientRevies{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    transition: all 1s ease;
+}
+.patientRevies img{
+width: 400px;
+margin-inline: 12px;
+border-radius: 4px;
+}
+.contact{
+    width: 300px;
+    background-color: "#fff";
+    padding: 22px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+}
+.contact input{
+    width: 90%;
+    font-size: 19px;
+    padding: 9px;
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    background-color: #e4e1e1;
+    border-radius: 2px;
+}
+.contact button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(13,98,98);
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 22px;
+}
+.contact h1{
+    color:rgb(16,103,103)
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(11,76,76);
+    color:white
+}
+.text p{
+    margin-top: 12px;
+}
+.detail{
+    display: none;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    top:5%;
+    background-color: #e4e1e1;
+    width: 400px;
+    gap: 22px;
+    transform: translate(-50%,40%);
+    border-bottom: 4px;
+}
+.content{
+    display: flex;
+    gap: 22px;
+}
+.content img{
+    margin-inline: 22px;
+    width: 200px;
+    height: 200px;
+}
+.detail button{
+    position: relative;
+    top:-22;
+    left: -22px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(12,94,94);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+ 
